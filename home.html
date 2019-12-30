@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Encode+Sans+Condensed|Great+Vibes|Inconsolata|Marck+Script|Merienda|Old+Standard+TT|Slabo+27px" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+</head>
+<body>
+	<div class="main-page">
+		<!-- <img src="image/1.png" id="jump"> -->
+		<div class="top-contain">
+			<div class="navbar-main">
+				<a href="home.html" id="logo"><img src="image/logo (2).png"></a>
+				<div class="navbar">
+					<ul>
+						<li><a href="Things To Do.html">Things To Do</a></li>
+						<li><a href="food & drinks.html">Foods & Drinks</a></li>
+						<li><a href="#">Hotel</a></li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="message">
+				<img src="image/welcome message.png">
+			</div>
+		</div>
+		<div class="contain-1">
+			<div id="description">
+				<h1>About NEPAL</h1>
+				<p>Nepal has a diverse geography, including fertile plains, subalpine forested hills, and eight of the world's ten tallest mountains, including Mount Everest, the highest point on Earth. Kathmandu is the nation's capital and largest city. Nepal is a multiethnic nation with Nepali as the official language.</p>
+			</div>
+		</div>
+		<div class="contain-2">
+			<h1>Place You Must Visit</h1>
+			<div class="pokhara">
+				<img src="image/pokhara.jpg">
+				<div id="discription-p">
+					<h2>POKHARA</h2>
+					<p>Pokhara is a city on Phewa Lake, in central Nepal. It’s known as a gateway to the Annapurna Circuit, a popular trail in the Himalayas. Tal Barahi Temple, a 2-story pagoda, sits on an island in the lake. On the eastern shore, the Lakeside district has yoga centers and restaurants. In the city’s south, the International Mountain Museum has exhibits on the history of mountaineering and the people of the Himalayas.</p>
+				</div>
+			</div>
+			<div class="bhaktapur">
+				<img src="image/56578_orig_1.jpg">
+				<div id="discription-b">
+					<h2>BHAKTAPUR</h2>
+					<p>Bhaktapur, literally translates to Place of devotees. Also known as Khwopa, it is an ancient Newa city in the east corner of the Kathmandu Valley, Nepal, about 8 miles from the capital city, Kathmandu.</p>
+				</div>
+			</div>
+			<div class="kathmandu">
+				<img src="image/kathmandu.jpg">
+				<div id="discription-k">
+					<h2>KATHMANDU</h2>
+					<p>Kathmandu is the capital city of Nepal. It is the largest metropolis in Nepal, with a population of 1.5 million in the city proper, and 3 million in its urban agglomeration across the Kathmandu Valley</p>
+				</div>
+			</div>
+			<div class="chitwan">
+				<img src="image/Sunset-in-chitwan-national-park.jpg">
+				<div id="discription-c">
+					<h2>CHITWAN</h2>
+					<p>The Chitwan District is one of 77 districts of Nepal, and is located in the southwestern part of Province No. 3 with Bharatpur, the fourth largest city of Nepal, as its district headquarters.</p>
+				</div>
+			</div>
+		</div>
+		<div class="referance">
+			<img src="image/GW7iIGpS_400x400.jpg" id="trivally">
+			<img src="image/5a05b7559cf05203c4b60464.png" id="tripadvisor">
+		</div>
+		<div class="fotter">
+			<img src="image/footer1.png">
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	function Scroll()
+	{
+		var pos= window.pageYOffset;
+		var c= document.getElementById("discription-c");
+		var k= document.getElementById("discription-k");
+		var b= document.getElementById("discription-b");
+		var p= document.getElementById("discription-p");
+		var n= document.getElementById("description");
+		if(pos>400)
+		{
+			n.style.width="560px";
+			n.style.opacity="1";
+			if(pos>900)
+			{
+				p.style.opacity="1";
+				if(pos>1300)
+				{
+					b.style.opacity="1";
+					if(pos>1700)
+					{
+						k.style.opacity="1";
+						if(pos>2100)
+						{
+							c.style.opacity="1";
+						}
+						else
+						{
+							c.style.opacity="0";
+						}
+					}
+					else
+					{
+						k.style.opacity="0";
+					}
+				}
+				else
+				{
+					b.style.opacity="0";
+				}
+			}
+			else
+			{
+				p.style.opacity="0";
+			}
+		}
+		else
+		{
+			n.style.width="0px";
+			n.style.opacity="0";
+		}
+	}
+	window.addEventListener("scroll",Scroll)
+</script>
+</html>

@@ -1,0 +1,88 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-main
+{
+	overflow: hidden;
+	background-color: #1012148f;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	z-index: 10;
+}
+
+#logo img
+{
+	width:150px;
+	height:auto;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.navbar
+{
+	position: absolute;
+	margin-top: 0px;
+	margin-right: 70px;
+	margin-left: 700px;
+}
+
+.navbar  ul li
+{
+	display: inline-block; 
+}
+
+.navbar ul li a
+{
+	font-size: 20px;
+	padding: 5px 15px 5px 15px ;
+	text-decoration: none;
+	color: white;
+	margin-left: 15px;
+}
+
+.navbar ul li a:hover
+{
+	color:  #2196F3  ;
+}
+
+.fotter
+{
+	position: absolute;
+	height: 229px;
+	width: 1350px;
+/* 	background-color: #1c5695 ; */
+}
+
+.fotter img
+{
+	width: 1350px;
+	height: 229px;
+}
+
+.referance
+{
+	width: 100%;
+	height: 200px;
+}
+
+#trivally
+{
+	float: left;
+	margin-left: 350px;
+	width: 200px;
+	height: 200px;
+}
+
+#tripadvisor
+{
+	width: 295px;
+	height: 50.5px;
+	padding-top: 100px;
+	margin-left: 100px;
+}

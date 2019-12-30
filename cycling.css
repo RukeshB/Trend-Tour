@@ -1,0 +1,38 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.top-contain
+{
+	background-image: url("image/tree_silhouette_1 (2).jpg");
+	background-size: cover;
+	background-position: center;
+	height: calc(100vh);
+}
+
+#cycle
+{
+	position: absolute;
+	width: 102.4px;
+	height: 101.2px;
+	top: 535px;
+	animation: cycling 10s infinite;
+}
+
+@keyframes cycling 
+{
+	/*0%{left:0px;}*/
+	100%{left: 1250px;}
+}
+
+#paragliding
+{
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	top: 150px;
+	left: 1255px;
+}
+

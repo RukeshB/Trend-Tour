@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pratice</title>
+	<link rel="stylesheet" type="text/css" href="food & drinks.css">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="navbar-main">
+			<a href="home.html" id="logo"><img src="image/logo (2).png"></a>
+			<div class="navbar">
+				<ul>
+					<li><a href="Things To Do.html">Things To Do</a></li>
+					<li><a href="food & drinks.html">Foods & Drinks</a></li>
+					<li><a href="#">Hotel</a></li></a>
+				</ul>
+			</div>
+		</div>
+		<div class="pizza">
+			<img src="img/HALF PIZZA.jpg" id="HALF_PIZZA">
+			<img src="img/CHEESE.png" id="CHEESE">
+			<img src="img/CHILI PEPPER.png" id="CHILI_PEPPER">
+			<img src="img/FLOUR.png" id="FLOUR">
+			<img src="img/GARLIC.png" id="GARLIC">
+			<img src="img/GRADIENT.png" id="GRADIENT">
+			<img src="img/ONION.png" id="ONION">
+			<img src="img/PEPPERMINT.png" id="PEPPERMINT">
+			<img src="img/PEPPERS.png" id="PEPPERS">
+			<img src="img/TOMATO.png" id="TOMATO">
+		</div>
+	</div>
+	<div class="main-contain">
+			<div class="contain-1">
+				<div id="king-curd">
+					<div id="info"><p>King Curd (Juju-Dhau)</p></div>
+				</div>
+				<div id="samya">
+					<div id="info"><p>Samya Baji</p></div>
+				</div>
+			</div>
+			<div class="contain-2">
+				<div id="dhido">
+					<div id="info"><p>Dhido</p></div>
+				</div>
+				<div id="momo">
+					<div id="info"><p>Mo:Mo</p></div>
+				</div>
+			</div>
+			<div class="contain-3">
+				<div id="Pani-Puri">
+					<div id="info"><p>Pani-Puri</p></div>
+				</div>
+				<div id="thwo">
+					<div id="info"><p>Soft Alcohol (Thwo)</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="referance">
+			<img src="image/GW7iIGpS_400x400.jpg" id="trivally">
+			<img src="image/5a05b7559cf05203c4b60464.png" id="tripadvisor">
+		</div>
+		<div class="fotter">
+			<img src="image/footer1.png">
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	function Scroll()
+	{
+		var pos= window.pageYOffset;
+		var FLOUR= document.getElementById("FLOUR");
+		var CHEESE= document.getElementById("CHEESE");
+		var GARLIC= document.getElementById("GARLIC");
+		var TOMATO= document.getElementById("TOMATO");
+		var PEPPERMINT= document.getElementById("PEPPERMINT");
+		var CHILI_PEPPER= document.getElementById("CHILI_PEPPER");
+		var GRADIENT= document.getElementById("GRADIENT");
+		var ONION= document.getElementById("ONION");
+		var PEPPERS= document.getElementById("PEPPERS");
+
+		if(pos > 30)
+		{
+			/*$("#FLOUR").css(top("500px"));*/
+			FLOUR.style.top= "245px";
+			FLOUR.style.left= "560px";
+			PEPPERS.style.top= "175px";
+			PEPPERS.style.left= "560px";
+			TOMATO.style.top= "205px";
+			TOMATO.style.left= "510px";
+			ONION.style.top= "320px";
+			ONION.style.left= "555px";
+			PEPPERMINT.style.top= "285px";
+			PEPPERMINT.style.left= "530px";
+			CHEESE.style.top= "360px";
+			CHEESE.style.left= "555px";
+			CHILI_PEPPER.style.top= "280px";
+			CHILI_PEPPER.style.left= "505px";
+			GARLIC.style.top= "355px";
+			GARLIC.style.left= "520px";
+			GRADIENT.style.top= "255px";
+			GRADIENT.style.left= "520px";
+		}
+
+		else
+		{
+			FLOUR.style.top= "215px";
+			FLOUR.style.left= "370px";
+			PEPPERS.style.top= "150px";
+			PEPPERS.style.left= "500px";
+			TOMATO.style.top= "120px";
+			TOMATO.style.left= "175px";
+			ONION.style.top= "400px";
+			ONION.style.left= "350px";
+			PEPPERMINT.style.top= "350px";
+			PEPPERMINT.style.left= "250px";
+			CHEESE.style.top= "550px";
+			CHEESE.style.left= "450px";
+			CHILI_PEPPER.style.top= "300px";
+			CHILI_PEPPER.style.left= "150px";
+			GARLIC.style.top= "500px";
+			GARLIC.style.left= "300px";
+			GRADIENT.style.top= "250px";
+			GRADIENT.style.left= "230px";
+		}
+	}
+	window.addEventListener("scroll",Scroll)
+</script>
+</html>

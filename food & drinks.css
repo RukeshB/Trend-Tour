@@ -1,0 +1,195 @@
+.pizza
+{
+	background-color: #D1EDFF;
+	width: 1350px;
+    height: 661.5px;
+}
+
+#HALF_PIZZA
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#CHEESE
+{
+	position: absolute;
+	top: 550px;
+	left: 450px;
+ 	transition: all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+#CHILI_PEPPER
+{
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	transition: all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+#FLOUR
+{
+	position: absolute;
+	top: 215px;
+	left: 370px;
+	transition: all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+#GARLIC
+{
+	position: absolute;
+	top: 500px;
+	left: 300px;
+	transition: all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+#GRADIENT
+{
+	position: absolute;
+	top: 250px;
+	left: 230px;
+	transition: all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+#ONION
+{
+	position: absolute;
+	top: 400px;
+	left: 350px;
+	transition: all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+#PEPPERMINT
+{
+	position: absolute;
+	top: 350px;
+	left: 250px;
+	transition: all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+#PEPPERS
+{
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	transition: all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+#TOMATO
+{
+	position: absolute;
+	top: 120px;
+	left: 175px;
+	transition:all .7s ease-in;
+    transition-delay: .1s; 
+}
+
+.main-contain
+{
+	padding: 50px 50px 50px 50px;
+	background-image: url("image/background-grey.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.contain-1, .contain-2, .contain-3
+{
+	width: 100%;
+	height: 400px;
+	padding: 10px 10px 10px 10px;
+}
+
+#king-curd
+{
+	background-image: url("image/food-Juju-Dhu.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 600px;
+	float: left;
+	display: inline-block;
+}
+
+#samya
+{
+	background-image: url("image/IMG_7212_t(2).jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 600px;
+	float: right;
+	display: inline-block;
+}
+
+#dhido
+{
+	background-image: url("image/dhido.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 600px;
+	float: left;
+	display: inline-block;
+}
+
+#momo
+{
+	background-image: url("image/momo.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 600px;
+	float: right;
+	display: inline-block;
+}
+
+#Pani-Puri
+{
+	background-image: url("image/Pani-Puri.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 600px;
+	float: left;
+	display: inline-block;
+}
+
+#thwo
+{
+	background-image: url("image/thwo.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 600px;
+	float: right;
+	display: inline-block;
+}
+
+#info p
+{
+	padding-top: 200px;
+}
+
+#info
+{
+	background-color: #1012146b;
+	height: 400px;
+	width: 600px;
+	margin-top: 0px;
+	font-family: 'Tangerine', cursive;
+	text-align: center;
+	font-size: 80px;
+	font-style: bold;
+	color: white;
+	position: absolute;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Things To Do</title>
+	<link rel="stylesheet" type="text/css" href="things to do.css">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
+</head>
+<body>
+	<div class="main-page">
+		<div class="top-contain">
+			<div class="navbar-main">
+				<a href="home.html" id="logo"><img src="image/logo (2).png"></a>
+				<div class="navbar">
+					<ul>
+						<li><a href="Things To Do.html">Things To Do</a></li>
+						<li><a href="food & drinks.html">Foods & Drinks</a></li>
+						<li><a href="#">Hotel</a></li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="message"><h1> Start <br>A Journey With Us</h1></div>
+			<a href="#" onclick="animationc()"><img src="image/cycle1.png" id="cycle"></a>
+			<a href="#" onclick="animationp()"><img src="image/paragliding.png" id="paragliding"></a>
+		</div>
+		<div class="main-contain">
+			<div class="contain-1">
+				<div id="trekking">
+					<div id="info"><p>Trekking</p></div>
+				</div>
+				<div id="cycling">
+					<div id="info"><p>Cycling</p></div>
+				</div>
+			</div>
+			<div class="contain-2">
+				<div id="rafting">
+					<div id="info"><p>Rafting</p></div>
+				</div>
+				<div id="paraglid">
+					<div id="info"><p>Paragliding</p></div>
+				</div>
+			</div>
+			<div class="contain-3">
+				<div id="ziplining">
+					<div id="info"><p>Ziplining</p></div>
+				</div>
+				<div id="bungee">
+					<div id="info"><p>Bungee Jump</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="referance">
+			<img src="image/GW7iIGpS_400x400.jpg" id="trivally">
+			<img src="image/5a05b7559cf05203c4b60464.png" id="tripadvisor">
+		</div>
+		<div class="fotter">
+			<img src="image/footer1.png">
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	function animationc()
+	{
+		var c=document.getElementById("cycle");
+		c.style.animation=("cycling 10s 1");
+	}
+
+	function animationp()
+	{
+		var p=document.getElementById("paragliding");
+		p.style.animation=("paragliding 10s 1");
+	}
+</script>
+</html>
